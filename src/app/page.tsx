@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <section className="my-[2.5rem] px-[1rem] ">
+      <section className="my-[2.5rem] px-[1rem] md:px-[2rem]">
         <h2 className="text-[2.25rem] font-[500]">About</h2>
         <p className="py-[1rem] text-[1.2rem]">
           Since 2004, the President of the United States and Congress have
@@ -48,7 +48,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="my-[2.5rem] px-[1rem] ">
+      <section className="my-[2.5rem] px-[1rem] md:px-[2rem] ">
         <h2 className="text-[2.25rem] font-[500]">Secure Our World</h2>
         <p className="py-[1rem] text-[1.2rem]">
           Starting in 2023 with the launch of CISA’s cybersecurity awareness
@@ -64,6 +64,55 @@ export default function Home() {
           can all take not only during October, but every day throughout the
           year to stay safe online.
         </p>
+      </section>
+
+      <section className="bg-[#005288] py-[2.5rem] px-[1rem] md:px-[2rem] md:flex md:justify-between">
+        <div className="w-full md:w-[40%] h-[300px] bg-white mb-[25px] md:mb-0"></div>
+        <div className="md:w-[55%]">
+          <h2 className="text-[1.5rem] font-[500] text-white">
+            Cybersecurity Awareness Month 2024 Toolkit
+          </h2>
+          <p className="text-white py-[24px]">
+            CISA collaborated with the National Cybersecurity Alliance (NCA) to
+            create resources and messaging for organizations to use to build
+            their own campaigns. Download the free toolkit below 👇
+          </p>
+
+          <button className="bg-[#0078ae] py-1 px-2 text-white">
+            Watch Full video
+          </button>
+        </div>
+      </section>
+
+      <section className="py-[2.5rem] px-[1rem] md:px-[2rem] md:flex md:justify-between">
+        <div className="w-full md:w-[40%] h-[300px] bg-black mb-[25px] md:mb-0"></div>
+        <div className="md:w-[55%]">
+          <h2 className="text-[1.5rem] font-[500]">
+            Cybersecurity Awareness Month 2024 Toolkit
+          </h2>
+          <p className="py-[24px]">
+            CISA collaborated with the National Cybersecurity Alliance (NCA) to
+            create resources and messaging for organizations to use to build
+            their own campaigns. Download the free toolkit below 👇
+          </p>
+
+          <button className="bg-[#0078ae] py-1 px-2 text-white">
+            Watch Full video
+          </button>
+        </div>
+      </section>
+
+      <section className="bg-[#f5fafc] py-[2.5rem] px-[1rem] md:px-[2rem]">
+        <div>
+          <h2 className="text-[2.25rem] font-[500]">
+            Four Easy Ways To Stay Safe Online
+          </h2>
+        </div>
+        <div className="md:grid md:grid-cols-3 gap-2">
+          <div className="mb-[20px] h-[250px] bg-white"></div>
+          <div className="h-[250px] bg-white"></div>
+          <div className="h-[250px] bg-white"></div>
+        </div>
       </section>
     </div>
   );
